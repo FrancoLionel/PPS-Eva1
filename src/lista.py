@@ -1,3 +1,17 @@
+r"""
+binario.py
+
+Programa que determina si el valor dado dentro de un login
+es correcto, aportando usuario y contraseña. En caso afirmativo,
+se dará el nombre completo, en caso contrario, se pedirá de nuevo
+un nombre de usuario.
+
+Ultima Modificación. 02/12/2025
+Autor. Franco Lionel Zalokar Elosegui
+Dependencias. pytest
+
+"""
+
 from modulo1.funciones import estaEnRango, estaEnLista
 
 usuarios = {
