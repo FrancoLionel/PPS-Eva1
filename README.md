@@ -1,0 +1,3 @@
+Este proyecto contiene dos programas en Python. `binario.py` permite ingresar una cadena y verifica si es un número binario; si lo es, calcula y muestra su valor decimal, y si no, solicita un nuevo número. `login.py` es un sistema de login básico que valida usuario y contraseña, mostrando el nombre completo del usuario si las credenciales son correctas, con un máximo de tres intentos permitidos.  
+
+Ambos programas dependen de funciones definidas en `modulo1.funciones`. `binario.py` usa `unittest` para pruebas, mientras que `login.py` puede usar `pytest`. Para ejecutarlos, basta con correr `python binario.py` o `python login.py` desde la terminal.  
